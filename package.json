@@ -1,0 +1,25 @@
+{
+  "name": "tradovate-autotrader",
+  "version": "1.0.0",
+  "description": "An automated trading system for the Tradovate API",
+  "main": "index.js",
+  "author": "<REDACTED FOR ANONYMITY",
+  "license": "MIT",
+  "private": true,
+  "bin": {
+    "tradovate-autotrader": "cli.js"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "commander": "^8.1.0",
+    "device-uuid": "^1.0.4",
+    "esm": "^3.2.25",
+    "fs": "^0.0.1-security",
+    "jStat": "^1.8.6",
+    "jquery-param": "^1.1.8",
+    "node-fetch": "^2.6.1",
+    "simple-statistics": "^7.7.0",
+    "style-loader": "^2.0.0",
+    "uuid": "^8.3.2"
+  }
+}
